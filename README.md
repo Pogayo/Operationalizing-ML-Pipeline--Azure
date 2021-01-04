@@ -13,54 +13,54 @@ The project can be improved by advanced feature engineering, such as creating ne
 ## Screenshots
 
 ### 1. Registered Datasets
-![registered datasets](screenshots/registered_datasets.png)
+![registered datasets](screenshots/registered_datasets.PNG)
 Creating the dataset using the provided URI.
 
 ### 2. Complete Experiment
-![Completed Experiment](screenshots/Completed Experiment.png)
+![Completed Experiment](screenshots/Completed Experiment.PNG)
 The finished automl run of the experiment we created. You can  see details such as duration and best model.
 
 ### 3. Best Model
-![Best Model](screenshots/best model.png)
+![Best Model](screenshots/best model.PNG)
 More details on the best model. You can click on view other metrics to explore the model
 
 ### 4. Application Insights Enabled
-![insights enabled](screenshots/enable_insights_portal.png)
+![insights enabled](screenshots/enable_insights_portal.PNG)
 One can click on the url to view insights on the endpoint
 
 ### 5. Enabling insights using logs.py
-![Logs.py output](screenshots/enabling_insights_cmd.png)
+![Logs.py output](screenshots/enabling_insights_cmd.PNG)
 
 Here we are enabling insights from local machine usig azure sdk and outputting the logs so we see what is going on.
 ### 6. Swagger runs on local host
-![Swagger UI](screenshots/swagger_ui.png)
+![Swagger UI](screenshots/swagger_ui.PNG)
 Swagger allows us to see the http methods, sample inputs and expected outputs
 
 ### 7. Consuming the endpoint using endpoint.py
-![Consume](screenshots/consuming_endpoints.png)
+![Consume](screenshots/consuming_endpoints.PNG)
 The model predicted no for both observations. The output is as we expected it meaning the api is healthy.
 
 ### 8. Running a benchmark
-![Benchmark](screenshots/benchmark.png) 
+![Benchmark](screenshots/benchmark.PNG) 
 We get some insights(response time, etc.) from Apache about our endpoint.
 
 ### 9. Pipeline created
-![created pipeline](screenshots/pipeline_created.png)
+![created pipeline](screenshots/pipeline_created.PNG)
 
 ### 10. Pipeline Endpoint
-![pipeline endpoint](screenshots/pipeline_section.png)
+![pipeline endpoint](screenshots/pipeline_section.PNG)
 
 ### 11. Bank Marketing Dataset with Automl 
-![dataset and automl](screenshots/dataset_and_aml_module.png) Design showing the full pipeline.
+![dataset and automl](screenshots/dataset_and_aml_module.PNG) Design showing the full pipeline.
 
 ### 12. Published Pipeline Overview
-![published pipeline](screenshots/published_pipeline_overview.png) It shows the  REST endpoint and the active status.
+![published pipeline](screenshots/published_pipeline_overview.PNG) It shows the  REST endpoint and the active status.
 
 ### 13. RunDetails Widget
-![Run details](screenshots/run_details_nb.png) It indicates that the run is complete
+![Run details](screenshots/run_details_nb.PNG) It indicates that the run is complete
 
 ### 14. Scheduled Run in ML Studio 
-![Scheduled Run](screenshots/scheduled_run.png) You can see the top-most run of the pipeline-rest-endpoint is still running right from the home page of Azure ML Studio.
+![Scheduled Run](screenshots/scheduled_run.PNG) You can see the top-most run of the pipeline-rest-endpoint is still running right from the home page of Azure ML Studio.
 
 
 ## ScreenCast: [YouTube link](https://youtu.be/Q0trirdPpRA)
